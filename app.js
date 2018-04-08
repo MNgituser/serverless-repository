@@ -14,7 +14,7 @@ var DESIRED_SAM_COUNT = 1;
 var CURRENT_SAM_COUNT = 1;
 var MAX_SAM_CHANGE = 10;
 var LAST_CHANGE_TIME = Date.now();
-var GET_SAM_COUNT_URL = 'https://e7ku3rnjgb.execute-api.us-east-1.amazonaws.com/Prod/sam';
+var GET_SAM_COUNT_URL = 'https://serverless-website-s3bucket-64b1etyzt15s.s3-website-us-east-1.amazonaws.com/';
 var TIME_BETWEEN_COUNT_UPDATE_MS = 4000;
 
 function preload() {
